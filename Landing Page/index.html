@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Exhibition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Art Exhibition</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis iure itaque excepturi! Dolore quae molestiae repellendus. Ad fugiat ab suscipit earum, ex facilis architecto dicta molestias fugit, distinctio cum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati asperiores suscipit, nulla deserunt at velit aspernatur voluptatibus quisquam quo neque, ex adipisci fuga maiores natus harum officiis! Doloribus, minus molestiae?.</p>
+    </section>
+
+    <section id="artists">
+        <h2>Featured Artists</h2>
+        <div class="artist">
+            <img src="Media/artist1.jpeg" alt="Artist 1">
+            <h3>
+                Pablo Picasso</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quibusdam illum quidem error aperiam nesciunt fugiat architecto quo omnis repellendus! Exercitationem voluptatibus voluptate sapiente natus ea, non sint illo. Suscipit.</p>
+        </div>
+        <div class="artist">
+            <img src="Media/artist2.jpeg" alt="Artist 2">
+            <h3>Leonardo da Vinci</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nihil enim eveniet corporis amet nisi voluptas non omnis quo iste, quis quaerat, dignissimos eligendi doloribus quae veniam perferendis impedit inventore!</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="artwork">
+            <img src="Media/pablo2.jpeg" alt="Artwork 1">
+            <img src="Media/pablo1.jpeg" alt="Artwork 1">
+            <img src="Media/pablo3.webp" alt="Artwork 1">
+        </div>
+        <div class="artwork">
+            <img src="Media/vinci.webp" alt="Artwork 2">
+            <img src="Media/vinci1.jpeg" alt="">
+            <img src="Media/vinci2.jpeg" alt="">
+        </div>
+        
+    </section>
+    
+    <section id="location">
+        <h2>Exhibition Location</h2>
+        <p>The art exhibition will be held at the following location:</p>
+        <address>
+            <p><strong>Fantasia Gallery </strong></p>
+            <p>123 Art Street</p>
+            <p> Massiomo City,  New State -404094 </p>
+            <p>Malasiya</p>
+        </address>
+        </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        
+
+        <form action="submit.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>
